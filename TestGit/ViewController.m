@@ -19,6 +19,7 @@
     // Do any additional setup after loading the view, typically from a nib.
     
     //added comment 1
+    //added comment 2
 }
 
 - (void)didReceiveMemoryWarning {
