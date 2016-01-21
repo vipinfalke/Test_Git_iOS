@@ -14,6 +14,7 @@
 		4E64A5DD1C50F7DC00729AC2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E64A5DC1C50F7DC00729AC2 /* Images.xcassets */; };
 		4E64A5E01C50F7DC00729AC2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E64A5DE1C50F7DC00729AC2 /* LaunchScreen.xib */; };
 		4E64A5EC1C50F7DC00729AC2 /* TestGitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E64A5EB1C50F7DC00729AC2 /* TestGitTests.m */; };
+		4EE035A71C51010D00AAF05C /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EE035A61C51010D00AAF05C /* SecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		4E64A5E51C50F7DC00729AC2 /* TestGitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestGitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E64A5EA1C50F7DC00729AC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4E64A5EB1C50F7DC00729AC2 /* TestGitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestGitTests.m; sourceTree = "<group>"; };
+		4EE035A51C51010D00AAF05C /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		4EE035A61C51010D00AAF05C /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				4E64A5D41C50F7DC00729AC2 /* AppDelegate.m */,
 				4E64A5D61C50F7DC00729AC2 /* ViewController.h */,
 				4E64A5D71C50F7DC00729AC2 /* ViewController.m */,
+				4EE035A51C51010D00AAF05C /* SecondViewController.h */,
+				4EE035A61C51010D00AAF05C /* SecondViewController.m */,
 				4E64A5D91C50F7DC00729AC2 /* Main.storyboard */,
 				4E64A5DC1C50F7DC00729AC2 /* Images.xcassets */,
 				4E64A5DE1C50F7DC00729AC2 /* LaunchScreen.xib */,
@@ -219,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EE035A71C51010D00AAF05C /* SecondViewController.m in Sources */,
 				4E64A5D81C50F7DC00729AC2 /* ViewController.m in Sources */,
 				4E64A5D51C50F7DC00729AC2 /* AppDelegate.m in Sources */,
 				4E64A5D21C50F7DC00729AC2 /* main.m in Sources */,
@@ -414,6 +420,7 @@
 				4E64A5F11C50F7DC00729AC2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4E64A5F21C50F7DC00729AC2 /* Build configuration list for PBXNativeTarget "TestGitTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +429,7 @@
 				4E64A5F41C50F7DC00729AC2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
